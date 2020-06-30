@@ -66,39 +66,39 @@ for i in range(0, 3):
         btn.bind("<Button-1>", click_btn_function)
 
 zeroBtn = Button(buttonFrame, text="0", font=font, width=5, relief="ridge", activebackground="orange",
-                 activeforeground="white")
+                 activeforeground="white", )
 zeroBtn.grid(row=3, column=0)
 
 dotBtn = Button(buttonFrame, text=".", font=font, width=5, relief="ridge", activebackground="orange",
-                activeforeground="white")
+                activeforeground="white",)
 dotBtn.grid(row=3, column=1)
 
 equalBtn = Button(buttonFrame, text="=", font=font, width=5, relief="ridge", activebackground="orange",
-                  activeforeground="white")
+                  activeforeground="white",bg = "powder blue")
 equalBtn.grid(row=3, column=2)
 
 plusBtn = Button(buttonFrame, text="+", font=font, width=5, relief="ridge", activebackground="orange",
-                 activeforeground="white")
+                 activeforeground="white",bg = "powder blue")
 plusBtn.grid(row=0, column=3)
 
 minusBtn = Button(buttonFrame, text="-", font=font, width=5, relief="ridge", activebackground="orange",
-                  activeforeground="white")
+                  activeforeground="white",bg = "powder blue")
 minusBtn.grid(row=1, column=3)
 
 multBtn = Button(buttonFrame, text="x", font=font, width=5, relief="ridge", activebackground="orange",
-                 activeforeground="white")
+                 activeforeground="white",bg = "powder blue")
 multBtn.grid(row=2, column=3)
 
 divBtn = Button(buttonFrame, text="/", font=font, width=5, relief="ridge", activebackground="orange",
-                activeforeground="white")
+                activeforeground="white",bg = "powder blue")
 divBtn.grid(row=3, column=3, )
 
 clearBtn = Button(buttonFrame, text="<--", font=font, width=11, relief="ridge", activebackground="orange",
-                  activeforeground="white", command = clear)
+                  activeforeground="white", command = clear,bg = "powder blue")
 clearBtn.grid(row=4, column=0, columnspan=2)
 
 allClearBtn = Button(buttonFrame, text="AC", font=font, width=11, relief="ridge", activebackground="orange",
-                  activeforeground="white", command = all_clear)
+                  activeforeground="white", command = all_clear,bg = "powder blue")
 allClearBtn.grid(row=4, column=2, columnspan=2)
 
 
